@@ -26,3 +26,28 @@ main > section {
     the height of the window */
     min-height: 100vh;
 }
+
+#intro-page{
+    background-color: whitesmoke;
+}
+
+    nav{
+        background-color: teal;
+        display: grid;
+        grid-template-columns: 10% 1fr 1fr 10%;
+        min-height: 10vh;
+        color: white;
+        align-items: center;
+    }
+    
+    #intro-name{
+        grid-column: 2/3;
+        font-size: 24px ;
+    } 
+
+    #nav-ids{
+        justify-self: end;
+        display: flex;
+        flex-direction: row;
+
+    }
