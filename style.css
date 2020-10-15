@@ -1,0 +1,28 @@
+/* ---- IMPORTS ---- */ 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@500&family=Roboto+Condensed:wght@300&family=Sacramento&display=swap');
+/* 
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Sacramento', cursive; 
+*/
+
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main > section {
+    overflow: auto;
+    min-height: 100vh;
+}
+
+nav, main > section {
+    overflow: auto;
+}
+
+main > section {
+    /* Give each section a minimum height that is 
+    the height of the window */
+    min-height: 100vh;
+}
